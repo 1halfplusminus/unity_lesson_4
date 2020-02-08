@@ -12,10 +12,6 @@ public class Game : MonoBehaviour
     public void IncrementSpawn()
     {
         enemyGroup.quantity += 1;
-        if (powerUpGroup.quantity.total < 3)
-        {
-            powerUpGroup.quantity += 1;
-        }
     }
 
     public void SpawnPowerUp()
